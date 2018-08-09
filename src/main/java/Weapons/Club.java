@@ -1,8 +1,9 @@
 package Weapons;
 
 import Enemies.Enemy;
+import Interfaces.IWeapon;
 
-public class Club {
+public class Club implements IWeapon {
     private int damage;
     private String name;
 
