@@ -2,7 +2,7 @@ import Enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class TrollTest {
 
@@ -16,4 +16,13 @@ public class TrollTest {
     public void hasHealth() {
         assertEquals(100, troll.getHealth());
     }
+
+    @Test
+    public void canSetHealth() {
+        troll.setHealth(80);
+        assertEquals(80, troll.getHealth());
+    }
+
+
+
 }
