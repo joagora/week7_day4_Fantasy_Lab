@@ -1,19 +1,15 @@
-package Enemies;
+package Players;
 
-public class Enemy {
+public abstract class Player {
     private String name;
     private int health;
 
-    public Enemy(String name) {
+    public Player(String name) {
         this.name = name;
         this.health = 100;
     }
 
     public int getHealth() {
         return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
     }
 }
