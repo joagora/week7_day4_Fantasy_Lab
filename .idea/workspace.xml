@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a698718-9217-489a-a616-581079b8cbaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrollTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Enemies/Orc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Enemies/Orc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Enemies/Troll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Enemies/Troll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Fighters/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Players/Fighters/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Fighters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Players/Fighters/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,22 +38,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="775" />
+          <entry key="java" value="1389" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="775" />
+          <entry key="JAVA" value="1389" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
@@ -66,30 +76,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Troll.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TrollTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
-                <element signature="e#110#111#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Orc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#80#81#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TrollTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="300">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,72 +151,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Orc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Weapons/Axe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Beasts/Ogre.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Beasts/Dragon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -490,14 +506,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Mages/Mage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AxeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TrollTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/main/java/Weapons/Axe.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AxeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TrollTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
       </list>
     </option>
   </component>
@@ -645,7 +662,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533814079838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533818629065" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -659,12 +676,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrollTest.canSetHealth">
+  <component name="RunManager" selected="JUnit.All in FantasyAdventure_test">
+    <configuration name="All in FantasyAdventure_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AxeTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AxeTest" />
       <option name="METHOD_NAME" value="canAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DwarfTest.hasWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
+      <option name="METHOD_NAME" value="hasWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -694,9 +729,13 @@
       <item itemvalue="JUnit.AxeTest.canAttack" />
       <item itemvalue="JUnit.TrollTest.hasHealth" />
       <item itemvalue="JUnit.TrollTest.canSetHealth" />
+      <item itemvalue="JUnit.DwarfTest.hasWeapon" />
+      <item itemvalue="JUnit.All in FantasyAdventure_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FantasyAdventure_test" />
+        <item itemvalue="JUnit.DwarfTest.hasWeapon" />
         <item itemvalue="JUnit.TrollTest.canSetHealth" />
         <item itemvalue="JUnit.AxeTest.canAttack" />
         <item itemvalue="JUnit.TrollTest.hasHealth" />
@@ -723,9 +762,15 @@
     <history-entry file="TrollTest_hasHealth - 2018.08.09 at 12h 22m 32s.xml">
       <configuration name="TrollTest.hasHealth" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrollTest_canSetHealth - 2018.08.09 at 12h 28m 07s.xml">
+      <configuration name="TrollTest.canSetHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DwarfTest_hasWeapon - 2018.08.09 at 13h 38m 21s.xml">
+      <configuration name="DwarfTest.hasWeapon" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -733,16 +778,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" weight="0.22178218" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.26987952" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32871288" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,13 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -891,82 +929,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Weapons/Club.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Orc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Weapons/Axe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Beasts/Ogre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -981,10 +943,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AxeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TrollTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -994,28 +980,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Troll.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Orc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TrollTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Enemies/Troll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Weapons/Club.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Weapons/Axe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

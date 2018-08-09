@@ -3,6 +3,6 @@ package Enemies;
 public class Orc extends Enemy {
 
     public Orc(String name) {
-        super(name);
+        super("Trevor");
     }
 }
