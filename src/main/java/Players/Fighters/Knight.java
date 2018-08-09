@@ -1,6 +1,7 @@
 package Players.Fighters;
 
 import Interfaces.IWeapon;
+import Weapons.Axe;
 import Weapons.Sword;
 
 public class Knight extends Fighter{
@@ -15,7 +16,12 @@ public class Knight extends Fighter{
 
     @Override
     public void changeWeapon(){
-
+        Axe axe = new Axe();
+        if (this.getWeapon() == this.sword){
+            setWeapon(axe);
+        } else {
+            return;
+        }
     }
 
     public void defaultWeapon(){

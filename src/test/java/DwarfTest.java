@@ -1,5 +1,6 @@
 import Players.Fighters.Dwarf;
 import Weapons.Axe;
+import Weapons.Club;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,6 +19,13 @@ public class DwarfTest {
     @Test
     public void hasWeapon(){
         Axe weapon = (Axe) dwarf.getWeapon();
-        assertEquals("Alfred", weapon.getName());
+        assertEquals("Axel", weapon.getName());
+    }
+
+    @Test
+    public void canChangeWeaponToClub() {
+        dwarf.changeWeapon();
+        Club club = (Club) dwarf.getWeapon();
+        assertEquals("Spikey", club.getName() );
     }
 }

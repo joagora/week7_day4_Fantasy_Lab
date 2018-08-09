@@ -2,6 +2,7 @@ package Players.Fighters;
 
 import Interfaces.IWeapon;
 import Weapons.Axe;
+import Weapons.Club;
 
 public class Dwarf extends Fighter{
 
@@ -15,6 +16,12 @@ public class Dwarf extends Fighter{
 
     @Override
     public void changeWeapon(){
+        Club club = new Club();
+        if (this.getWeapon() == this.axe){
+            setWeapon(club);
+        } else {
+            return;
+        }
     }
 
     public void defaultWeapon(){
