@@ -1,19 +1,19 @@
-import Spells.FreezeSpell;
+import Spells.FireSpell;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class FreezeSpellTest {
+public class FireSpellTest {
 
-    FreezeSpell freezeSpell;
+    FireSpell fireSpell;
     @Before
     public void before() {
-        freezeSpell = new FreezeSpell();
+        fireSpell = new FireSpell();
     }
 
     @Test
     public void hasDamage() {
-        assertEquals(30, freezeSpell.getDamage());
+        assertEquals(50, fireSpell.getDamage());
     }
 }
