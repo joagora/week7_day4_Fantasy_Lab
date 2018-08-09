@@ -1,4 +1,5 @@
 import Players.Fighters.Barbarian;
+import Weapons.Axe;
 import Weapons.Club;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,5 +21,12 @@ public class BarbarianTest {
     public void hasWeapon(){
         Club weapon = (Club) barbarian.getWeapon();
         assertEquals("Spikey", weapon.getName());
+    }
+
+    @Test
+    public void canChangeWeaponToAxe() {
+        barbarian.changeWeapon();
+        Axe axe = (Axe) barbarian.getWeapon();
+        assertEquals("Axel", axe.getName() );
     }
 }

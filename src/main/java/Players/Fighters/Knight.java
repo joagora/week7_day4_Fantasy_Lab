@@ -14,8 +14,8 @@ public class Knight extends Fighter{
     }
 
     @Override
-    public void changeWeapon(IWeapon weapon){
-        setWeapon(weapon);
+    public void changeWeapon(){
+
     }
 
     public void defaultWeapon(){

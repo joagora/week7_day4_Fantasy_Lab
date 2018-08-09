@@ -19,5 +19,5 @@ public abstract class Fighter extends Player {
         this.weapon = newWeapon;
     }
 
-    public abstract void changeWeapon(IWeapon newWeapon);
+    public abstract void changeWeapon();
 }

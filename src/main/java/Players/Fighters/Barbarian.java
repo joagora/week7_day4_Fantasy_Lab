@@ -1,6 +1,7 @@
 package Players.Fighters;
 
 import Interfaces.IWeapon;
+import Weapons.Axe;
 import Weapons.Club;
 
 public class Barbarian extends Fighter{
@@ -15,8 +16,13 @@ public class Barbarian extends Fighter{
     }
 
     @Override
-    public void changeWeapon(IWeapon weapon){
-        setWeapon(weapon);
+    public void changeWeapon(){
+        Axe axe = new Axe();
+        if (this.getWeapon() == this.club){
+            setWeapon(axe);
+        } else {
+            return;
+        }
     }
 
     public void defaultWeapon(){

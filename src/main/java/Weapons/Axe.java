@@ -10,7 +10,7 @@ public class Axe implements IWeapon {
 
     public Axe() {
         this.damage = 20;
-        this.name = "Alfred";
+        this.name = "Axel";
     }
 
     public void attack(Enemy enemy){
