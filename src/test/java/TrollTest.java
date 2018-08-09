@@ -9,7 +9,7 @@ public class TrollTest {
     Troll troll;
     @Before
     public void before(){
-        troll = new Troll("Trevor");
+        troll = new Troll();
     }
 
     @Test
@@ -22,7 +22,6 @@ public class TrollTest {
         troll.setHealth(80);
         assertEquals(80, troll.getHealth());
     }
-
 
 
 }

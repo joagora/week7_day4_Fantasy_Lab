@@ -14,7 +14,7 @@ public class SwordTest {
 
     public void before() {
         sword = new Sword();
-        troll = new Troll("Derek");
+        troll = new Troll();
     }
 
     @Test

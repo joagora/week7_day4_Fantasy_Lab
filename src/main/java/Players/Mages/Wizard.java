@@ -23,4 +23,6 @@ public class Wizard extends Mage{
     public void setDefaultDefence(){
         this.setDefence(this.defaultDefence);
     }
+
+
 }

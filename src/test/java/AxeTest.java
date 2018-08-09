@@ -13,7 +13,7 @@ public class AxeTest {
 
     public void before() {
         axe = new Axe();
-        troll = new Troll("Derek");
+        troll = new Troll();
     }
 
     @Test

@@ -12,7 +12,7 @@ public class ClubTest {
 
     public void before() {
         club = new Club();
-        troll = new Troll("Derek");
+        troll = new Troll();
     }
 
     @Test

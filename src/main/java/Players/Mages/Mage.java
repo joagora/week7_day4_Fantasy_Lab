@@ -31,4 +31,5 @@ public abstract class Mage extends Player{
     public IDefend getDefence() {
         return defence;
     }
+
 }

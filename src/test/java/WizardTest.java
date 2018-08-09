@@ -26,4 +26,9 @@ public class WizardTest {
         FireSpell spell = (FireSpell) wizard.getSpell();
         assertEquals(50, spell.getDamage());
     }
+
+    @Test
+    public void testCauseDamage(){
+
+    }
 }
