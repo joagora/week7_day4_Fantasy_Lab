@@ -28,4 +28,9 @@ public class WarlockTest {
         LightningSpell spell = (LightningSpell) warlock.getSpell();
         assertEquals(40, spell.getDamage());
     }
+
+    @Test
+    public void hasStamina() {
+        assertEquals(40, warlock.getStamina());
+    }
 }

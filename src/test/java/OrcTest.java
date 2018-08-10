@@ -24,7 +24,7 @@ public class OrcTest {
     }
 
     @Test
-    public void hasStrenght() {
+    public void hasStrength() {
         assertEquals(20, orc.getStrength());
     }
 }

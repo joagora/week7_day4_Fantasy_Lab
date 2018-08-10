@@ -11,7 +11,7 @@ public class Warlock extends Mage{
     private int stamina;
 
     public Warlock() {
-        super("Robbie");
+        super("Robbie", 40, 20);
         this.defaultSpell = new LightningSpell();
         this.defaultDefence = new Ogre();
         this.stamina = 50;

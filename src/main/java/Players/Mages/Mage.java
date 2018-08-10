@@ -11,8 +11,8 @@ public abstract class Mage extends Player implements ISpell {
 
 
 
-    public Mage(String name) {
-        super(name);
+    public Mage(String name, int stamina, int strength) {
+        super(name, stamina, strength);
         this.spell = spell;
         this.defence = defence;
     }

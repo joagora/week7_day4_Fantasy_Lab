@@ -9,7 +9,7 @@ public class Wizard extends Mage{
     private FireSpell defaultSpell;
 
     public Wizard() {
-        super("Colin");
+        super("Colin", 30, 10);
         this.defaultSpell = new FireSpell();
         this.defaultDefence = new Dragon();
         setDefaultDefence();
