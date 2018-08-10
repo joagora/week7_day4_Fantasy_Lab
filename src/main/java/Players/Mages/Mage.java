@@ -1,12 +1,12 @@
 package Players.Mages;
 
-import Interfaces.IDefend;
+import Beasts.Beast;
 import Players.Player;
 import Spells.Spell;
 
 public abstract class Mage extends Player{
     private Spell spell;
-    private IDefend defence;
+    private Beast defence;
 
 
 
@@ -24,11 +24,11 @@ public abstract class Mage extends Player{
         this.spell = spell;
     }
 
-    public void setDefence(IDefend defence) {
-        this.defence = defence;
+    public void setDefence(Beast beast) {
+        this.defence = beast;
     }
 
-    public IDefend getDefence() {
+    public Beast getDefence() {
         return defence;
     }
 

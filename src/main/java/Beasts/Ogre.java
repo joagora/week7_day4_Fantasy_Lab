@@ -1,16 +1,11 @@
 package Beasts;
 
-import Interfaces.IDefend;
 
-public class Ogre implements IDefend {
+public class Ogre extends Beast {
 
-    private String name;
 
-    public Ogre() {
-        this.name = "Shmurk";
+    public Ogre(){
+        super("Shmurk", 10);
     }
 
-    public String getName() {
-        return name;
-    }
 }

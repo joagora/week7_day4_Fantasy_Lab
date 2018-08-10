@@ -18,7 +18,7 @@ public class WizardTest {
     @Test
     public void hasDragonAsDefence() {
         Dragon dragon = (Dragon) wizard.getDefence();
-        assertEquals("Dinosaur", dragon.getName());
+        assertEquals("Dino", dragon.getName());
     }
 
     @Test

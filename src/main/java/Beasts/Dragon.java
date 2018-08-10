@@ -1,17 +1,9 @@
 package Beasts;
 
-import Interfaces.IDefend;
-
-public class Dragon implements IDefend {
-    private String name;
-    private int protection;
+public class Dragon extends Beast {
 
     public Dragon() {
-        this.name = "Dinosaur";
-        this.protection = 30;
+        super("Dino", 20);
     }
 
-    public String getName() {
-        return name;
-    }
 }
