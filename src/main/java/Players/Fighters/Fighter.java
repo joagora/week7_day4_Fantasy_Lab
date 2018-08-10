@@ -2,20 +2,21 @@ package Players.Fighters;
 
 import Interfaces.IWeapon;
 import Players.Player;
+import Weapons.Weapon;
 
 public abstract class Fighter extends Player {
-    private IWeapon weapon;
+    private Weapon weapon;
 
     public Fighter(String name) {
         super(name);
         this.weapon = null;
     }
 
-    public IWeapon getWeapon() {
+    public Weapon getWeapon() {
         return weapon;
     }
 
-    public void setWeapon(IWeapon newWeapon){
+    public void setWeapon(Weapon newWeapon){
         this.weapon = newWeapon;
     }
 

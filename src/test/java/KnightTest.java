@@ -19,7 +19,7 @@ public class KnightTest {
     @Test
     public void hasWeapon(){
         Sword weapon = (Sword) knight.getWeapon();
-        assertEquals("Exkababer", weapon.getName());
+        assertEquals("Excavator", weapon.getName());
     }
 
     @Test

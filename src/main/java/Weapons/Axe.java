@@ -1,24 +1,10 @@
 package Weapons;
 
 import Enemies.Enemy;
-import Interfaces.IWeapon;
 
-public class Axe implements IWeapon {
-
-    private int damage;
-    private String name;
+public class Axe extends Weapon {
 
     public Axe() {
-        this.damage = 20;
-        this.name = "Axel";
-    }
-
-    public void attack(Enemy enemy){
-        int newHealth = enemy.getHealth() - this.damage;
-        enemy.setHealth(newHealth);
-    }
-
-    public String getName() {
-        return name;
+        super(20, "Axel");
     }
 }

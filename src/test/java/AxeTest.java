@@ -18,7 +18,7 @@ public class AxeTest {
 
     @Test
     public void canAttack() {
-        axe.attack(troll);
+        axe.causeDamage(troll);
         assertEquals(80, troll.getHealth());
     }
 }

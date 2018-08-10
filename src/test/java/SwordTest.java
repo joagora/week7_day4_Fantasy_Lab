@@ -1,5 +1,4 @@
 import Enemies.Troll;
-import Weapons.Axe;
 import Weapons.Sword;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,7 +18,7 @@ public class SwordTest {
 
     @Test
     public void canAttack() {
-        sword.attack(troll);
+        sword.causeDamage(troll);
         assertEquals(85, troll.getHealth());
     }
 }
