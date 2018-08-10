@@ -21,4 +21,7 @@ public abstract class Player {
         return stamina;
     }
 
+    public int getStrength() {
+        return strength;
+    }
 }

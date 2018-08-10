@@ -33,4 +33,9 @@ public class WarlockTest {
     public void hasStamina() {
         assertEquals(40, warlock.getStamina());
     }
+
+    @Test
+    public void hasStrength() {
+        assertEquals(20, warlock.getStrength());
+    }
 }

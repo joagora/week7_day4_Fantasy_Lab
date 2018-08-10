@@ -850,7 +850,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533912290353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533912520716" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -867,15 +867,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WarlockTest.hasStamina">
-    <configuration name="All in FantasyAdventure_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WarlockTest.hasStrength">
     <configuration name="OrcTest.hasStamina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -916,20 +908,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarlockTest.hasStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="METHOD_NAME" value="hasStrength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.All in FantasyAdventure_test" />
       <item itemvalue="JUnit.OrcTest.hasStamina" />
       <item itemvalue="JUnit.TrollTest.hasStamina" />
       <item itemvalue="JUnit.OrcTest.hasStrenght" />
       <item itemvalue="JUnit.WarlockTest.hasStamina" />
+      <item itemvalue="JUnit.WarlockTest.hasStrength" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WarlockTest.hasStrength" />
         <item itemvalue="JUnit.WarlockTest.hasStamina" />
         <item itemvalue="JUnit.OrcTest.hasStrenght" />
         <item itemvalue="JUnit.TrollTest.hasStamina" />
         <item itemvalue="JUnit.OrcTest.hasStamina" />
-        <item itemvalue="JUnit.All in FantasyAdventure_test" />
       </list>
     </recent_temporary>
   </component>
