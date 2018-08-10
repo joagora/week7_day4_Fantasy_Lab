@@ -28,4 +28,8 @@ public abstract class Enemy {
     public int getStamina() {
         return stamina;
     }
+
+    public int getStrength() {
+        return strength;
+    }
 }

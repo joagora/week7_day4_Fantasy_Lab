@@ -22,4 +22,9 @@ public class OrcTest {
     public void hasStamina() {
         assertEquals(30, orc.getStamina());
     }
+
+    @Test
+    public void hasStrenght() {
+        assertEquals(20, orc.getStrength());
+    }
 }

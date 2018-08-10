@@ -831,7 +831,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533912221344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533912283905" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -848,19 +848,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrollTest.hasStamina">
+  <component name="RunManager" selected="JUnit.OrcTest.hasStrenght">
     <configuration name="All in FantasyAdventure_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClubTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -885,6 +877,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrcTest.hasStrenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrcTest" />
+      <option name="METHOD_NAME" value="hasStrenght" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrollTest.hasStamina" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -897,18 +899,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in FantasyAdventure_test" />
-      <item itemvalue="JUnit.ClubTest" />
       <item itemvalue="JUnit.ClubTest.canAttack" />
       <item itemvalue="JUnit.OrcTest.hasStamina" />
       <item itemvalue="JUnit.TrollTest.hasStamina" />
+      <item itemvalue="JUnit.OrcTest.hasStrenght" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrcTest.hasStrenght" />
         <item itemvalue="JUnit.TrollTest.hasStamina" />
         <item itemvalue="JUnit.OrcTest.hasStamina" />
         <item itemvalue="JUnit.All in FantasyAdventure_test" />
         <item itemvalue="JUnit.ClubTest.canAttack" />
-        <item itemvalue="JUnit.ClubTest" />
       </list>
     </recent_temporary>
   </component>
