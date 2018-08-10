@@ -27,4 +27,9 @@ public class OrcTest {
     public void hasStrength() {
         assertEquals(20, orc.getStrength());
     }
+
+    @Test
+    public void hasResistanceToMagic() {
+        assertEquals(false, orc.getResistanceToMagic());
+    }
 }

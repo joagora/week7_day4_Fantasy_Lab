@@ -5,12 +5,14 @@ public abstract class Enemy {
     private int health;
     private int stamina;
     private int strength;
+    private boolean resistanceToMagic;
 
-    public Enemy(String name, int stamina, int strength) {
+    public Enemy(String name, int stamina, int strength, boolean resistanceToMagic) {
         this.name = name;
         this.health = 100;
         this.stamina = stamina;
         this.strength = strength;
+        this.resistanceToMagic = resistanceToMagic;
     }
 
     public int getHealth() {
@@ -31,5 +33,9 @@ public abstract class Enemy {
 
     public int getStrength() {
         return strength;
+    }
+
+    public boolean getResistanceToMagic() {
+        return resistanceToMagic;
     }
 }
