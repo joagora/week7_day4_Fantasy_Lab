@@ -3,7 +3,7 @@ package Enemies;
 public class Orc extends Enemy {
 
     public Orc() {
-        super("Trevor");
+        super("Trevor", 30, 20);
     }
 
 

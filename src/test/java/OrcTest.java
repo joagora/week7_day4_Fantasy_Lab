@@ -17,4 +17,9 @@ public class OrcTest {
     public void hasName() {
         assertEquals("Trevor", orc.getName());
     }
+
+    @Test
+    public void hasStamina() {
+        assertEquals(30, orc.getStamina());
+    }
 }

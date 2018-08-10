@@ -9,7 +9,7 @@ public class Knight extends Fighter{
     private Sword sword;
 
     public Knight() {
-        super("Keith");
+        super("Keith", 30, 50);
         this.sword = new Sword();
         defaultWeapon();
     }

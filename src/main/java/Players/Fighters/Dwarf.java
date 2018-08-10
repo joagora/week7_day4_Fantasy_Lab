@@ -9,7 +9,7 @@ public class Dwarf extends Fighter{
     private Axe axe;
 
     public Dwarf() {
-        super("Edward");
+        super("Edward", 40, 20);
         this.axe = new Axe();
         defaultWeapon();
     }

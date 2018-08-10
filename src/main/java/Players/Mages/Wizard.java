@@ -1,8 +1,7 @@
 package Players.Mages;
 
 import Beasts.Dragon;
-import Interfaces.IDefend;
-import Interfaces.ISpell;
+import Enemies.Enemy;
 import Spells.FireSpell;
 
 public class Wizard extends Mage{
@@ -24,5 +23,8 @@ public class Wizard extends Mage{
         this.setDefence(this.defaultDefence);
     }
 
+    public void attack(Enemy enemy){
+
+    }
 
 }

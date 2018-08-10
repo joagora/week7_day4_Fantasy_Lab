@@ -1,10 +1,11 @@
 package Players.Mages;
 
 import Beasts.Beast;
+import Interfaces.ISpell;
 import Players.Player;
 import Spells.Spell;
 
-public abstract class Mage extends Player{
+public abstract class Mage extends Player implements ISpell {
     private Spell spell;
     private Beast defence;
 

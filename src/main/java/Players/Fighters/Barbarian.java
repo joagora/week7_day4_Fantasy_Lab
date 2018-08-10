@@ -10,7 +10,7 @@ public class Barbarian extends Fighter{
     private Club club;
 
     public Barbarian() {
-        super("Steve");
+        super("Steve", 15, 60);
         this.club = new Club();
         defaultWeapon();
     }

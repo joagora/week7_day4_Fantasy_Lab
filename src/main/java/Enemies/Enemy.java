@@ -3,10 +3,14 @@ package Enemies;
 public abstract class Enemy {
     private String name;
     private int health;
+    private int stamina;
+    private int strength;
 
-    public Enemy(String name) {
+    public Enemy(String name, int stamina, int strength) {
         this.name = name;
         this.health = 100;
+        this.stamina = stamina;
+        this.strength = strength;
     }
 
     public int getHealth() {
@@ -19,5 +23,9 @@ public abstract class Enemy {
 
     public String getName() {
         return name;
+    }
+
+    public int getStamina() {
+        return stamina;
     }
 }
