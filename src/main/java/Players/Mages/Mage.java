@@ -1,11 +1,11 @@
 package Players.Mages;
 
 import Interfaces.IDefend;
-import Interfaces.ISpell;
 import Players.Player;
+import Spells.Spell;
 
 public abstract class Mage extends Player{
-    private ISpell spell;
+    private Spell spell;
     private IDefend defence;
 
 
@@ -16,11 +16,11 @@ public abstract class Mage extends Player{
         this.defence = defence;
     }
 
-    public ISpell getSpell() {
+    public Spell getSpell() {
         return spell;
     }
 
-    public void setSpell(ISpell spell) {
+    public void setSpell(Spell spell) {
         this.spell = spell;
     }
 
