@@ -23,5 +23,8 @@ public class TrollTest {
         assertEquals(80, troll.getHealth());
     }
 
-
+    @Test
+    public void hasStamina() {
+        assertEquals(10, troll.getStamina());
+    }
 }
