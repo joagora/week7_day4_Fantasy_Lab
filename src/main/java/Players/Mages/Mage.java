@@ -42,9 +42,7 @@ public abstract class Mage extends Player {
         } else {
             Dice dice = new Dice();
             int playerLuck = dice.getRandomNumber();
-            System.out.println(playerLuck);
             int enemyLuck = dice.getRandomNumber();
-            System.out.println(enemyLuck);
             if (enemy.getStrength() + enemyLuck < this.getStrength() + playerLuck) {
                 this.getSpell().causeDamage(enemy);
             } else {

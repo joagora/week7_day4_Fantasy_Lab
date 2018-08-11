@@ -32,4 +32,9 @@ public class OrcTest {
     public void hasResistanceToMagic() {
         assertEquals(false, orc.getResistanceToMagic());
     }
+
+    @Test
+    public void hasClub() {
+        assertEquals("Spikey", orc.getWeapon().getName());
+    }
 }

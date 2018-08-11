@@ -1,11 +1,17 @@
 package Enemies;
 
+
+import Game.Dice;
+import Players.Player;
+import Weapons.Weapon;
+
 public abstract class Enemy {
     private String name;
     private int health;
     private int stamina;
     private int strength;
     private boolean resistanceToMagic;
+    private Weapon weapon;
 
     public Enemy(String name, int stamina, int strength, boolean resistanceToMagic) {
         this.name = name;
@@ -13,6 +19,11 @@ public abstract class Enemy {
         this.stamina = stamina;
         this.strength = strength;
         this.resistanceToMagic = resistanceToMagic;
+        this.weapon = null;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
     }
 
     public int getHealth() {
@@ -21,6 +32,10 @@ public abstract class Enemy {
 
     public void setHealth(int health) {
         this.health = health;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
     }
 
     public String getName() {
@@ -39,7 +54,13 @@ public abstract class Enemy {
         return resistanceToMagic;
     }
 
-    public void attack(){
+    public void attackPlayer(Player player){
+        Dice dice = new Dice();
+        int playerLuck = dice.getRandomNumber();
+        int enemyLuck = dice.getRandomNumber();
 
+        if (player.getStrength() + playerLuck <= this.getStrength() + enemyLuck) {
+
+        }
     }
 }
