@@ -29,8 +29,8 @@ public abstract class Fighter extends Player {
 
     public void attack(Enemy enemy){
         Dice dice = new Dice();
-        int playerLuck = dice.getRandomNumber();
-        int enemyLuck = dice.getRandomNumber();
+        int playerLuck = dice.getRandomNumberUpTo20();
+        int enemyLuck = dice.getRandomNumberUpTo20();
         if (enemy.getStrength() + enemyLuck > this.getStrength() + playerLuck) {
             this.getWeapon().causeDamageToEnemy(enemy);
         } else {

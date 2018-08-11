@@ -3,14 +3,17 @@ package Game;
 import java.util.Random;
 
 public class Dice {
-    private int roll;
 
     public Dice() {
-        this.roll = getRandomNumber();
     }
 
-    public int getRandomNumber(){
+    public int getRandomNumberUpTo20(){
         Random randNum = new Random();
         return randNum.nextInt(21);
+    }
+
+    public int getRandomNumber(int maxValue){
+        Random randNum = new Random();
+        return randNum.nextInt(maxValue + 1);
     }
 }

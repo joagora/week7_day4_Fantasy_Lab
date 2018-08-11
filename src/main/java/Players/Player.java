@@ -25,8 +25,8 @@ public abstract class Player extends GameCharacter implements IFight {
             this.setStamina(this.getStamina() - 10);
         } else {
             Dice dice = new Dice();
-            int playerLuck = dice.getRandomNumber();
-            int enemyLuck = dice.getRandomNumber();
+            int playerLuck = dice.getRandomNumberUpTo20();
+            int enemyLuck = dice.getRandomNumberUpTo20();
             if (enemy.getStrength() + enemyLuck < this.getStrength() + playerLuck) {
                 this.power.causeDamageToEnemy(enemy);
             } else {

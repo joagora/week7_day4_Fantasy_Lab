@@ -1,5 +1,32 @@
 package Room;
 
-public class Room {
+import Enums.ExitType;
+import Game.Dice;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Room {
+    private ArrayList<ExitType> exits;
+
+    public Room() {
+        this.exits = exits;
+    }
+
+
+
+    public void createExits(){
+        ArrayList<ExitType> exitsOfRoom = new ArrayList<>();
+        ExitType[] allAvailableExits = ExitType.values();
+        Dice dice = new Dice();
+        int numberOfExits = dice.getRandomNumber(3) + 1;
+        int x = 0;
+        while (x < numberOfExits) {
+            ExitType randomExit = allAvailableExits[new Random().nextInt(allAvailableExits.length)];
+            exitsOfRoom.add(randomExit);
+            x += 1;
+        }
+        System.out.println(exitsOfRoom);
+    }
 }

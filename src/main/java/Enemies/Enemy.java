@@ -33,8 +33,8 @@ public abstract class Enemy extends GameCharacter implements IFight {
 
     public void attack(Player player){
         Dice dice = new Dice();
-        int playerLuck = dice.getRandomNumber();
-        int enemyLuck = dice.getRandomNumber();
+        int playerLuck = dice.getRandomNumberUpTo20();
+        int enemyLuck = dice.getRandomNumberUpTo20();
         System.out.println(playerLuck);
         System.out.println(enemyLuck);
         if (player.getStrength() + playerLuck <= this.getStrength() + enemyLuck) {
