@@ -27,6 +27,10 @@ public abstract class Player {
         return strength;
     }
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
     public void setStamina(int newStamina){
         this.stamina = newStamina;
     }
