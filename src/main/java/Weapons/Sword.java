@@ -1,16 +1,13 @@
 package Weapons;
 
 import Enemies.Enemy;
+import Interfaces.ILightSide;
 
-public class Sword extends Weapon {
-
-    private int damage;
-    private String name;
+public class Sword extends Weapon implements ILightSide {
 
     public Sword() {
         super(15, "Excavator");
     }
-
 
 }
 
