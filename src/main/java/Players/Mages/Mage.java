@@ -1,11 +1,13 @@
 package Players.Mages;
 
 import Beasts.Beast;
-import Interfaces.ISpell;
+import Enemies.Enemy;
+import Game.Dice;
+import Interfaces.ICauseDamage;
 import Players.Player;
 import Spells.Spell;
 
-public abstract class Mage extends Player implements ISpell {
+public abstract class Mage extends Player {
     private Spell spell;
     private Beast defence;
 
@@ -31,6 +33,23 @@ public abstract class Mage extends Player implements ISpell {
 
     public Beast getDefence() {
         return defence;
+    }
+
+    @Override
+    public void attack(Enemy enemy){
+        if (enemy.getResistanceToMagic()){
+            return;
+        } else {
+            Dice dice = new Dice();
+            int playerLuck = dice.getRandomNumber();
+            int enemyLuck = dice.getRandomNumber();
+            if (enemy.getStrength() + enemyLuck > this.getStrength() + playerLuck) {
+                this.getSpell().causeDamage(enemy);
+            } else {
+                int currentPlayerStamina = this.getStamina();
+                this.setStamina(currentPlayerStamina - 10);
+            }
+        }
     }
 
 }

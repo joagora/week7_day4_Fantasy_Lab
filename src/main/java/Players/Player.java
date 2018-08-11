@@ -1,5 +1,7 @@
 package Players;
 
+import Enemies.Enemy;
+
 public abstract class Player {
     private String name;
     private int health;
@@ -24,4 +26,10 @@ public abstract class Player {
     public int getStrength() {
         return strength;
     }
+
+    public void setStamina(int newStamina){
+        this.stamina = newStamina;
+    }
+
+    public abstract void attack(Enemy enemy);
 }

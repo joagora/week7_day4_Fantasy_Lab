@@ -1,5 +1,7 @@
 package Players.Fighters;
 
+import Enemies.Enemy;
+import Game.Dice;
 import Interfaces.IWeapon;
 import Players.Player;
 import Weapons.Weapon;
@@ -23,4 +25,16 @@ public abstract class Fighter extends Player implements IWeapon {
     }
 
     public abstract void changeWeapon();
+
+    public void attack(Enemy enemy){
+        Dice dice = new Dice();
+        int playerLuck = dice.getRandomNumber();
+        int enemyLuck = dice.getRandomNumber();
+        if (enemy.getStrength() + enemyLuck > this.getStrength() + playerLuck) {
+            this.getWeapon().causeDamage(enemy);
+        } else {
+            int currentPlayerStamina = this.getStamina();
+            this.setStamina(currentPlayerStamina - 10);
+        }
+    }
 }

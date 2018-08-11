@@ -1,8 +1,9 @@
 package Weapons;
 
 import Enemies.Enemy;
+import Interfaces.ICauseDamage;
 
-public abstract class Weapon {
+public abstract class Weapon implements ICauseDamage {
 
     protected int damage;
     protected String name;
@@ -12,6 +13,7 @@ public abstract class Weapon {
         this.name = name;
     }
 
+    @Override
     public void causeDamage(Enemy enemy){
         int newHealth = enemy.getHealth() - this.damage;
         enemy.setHealth(newHealth);

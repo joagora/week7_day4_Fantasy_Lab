@@ -1,4 +1,8 @@
 package Potions;
 
-public class Potion {
+public class Potion extends Medicine {
+
+    public Potion(int healthRestoration) {
+        super(healthRestoration);
+    }
 }

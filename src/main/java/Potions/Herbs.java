@@ -1,4 +1,8 @@
 package Potions;
 
-public class Herbs {
+public class Herbs extends Medicine {
+
+    public Herbs() {
+        super(20);
+    }
 }

@@ -1,5 +1,6 @@
 package Players.Fighters;
 
+import Enemies.Enemy;
 import Interfaces.IWeapon;
 import Weapons.Axe;
 import Weapons.Club;
@@ -28,4 +29,7 @@ public class Dwarf extends Fighter{
         this.setWeapon(this.axe);
     }
 
+    public void attack(Enemy enemy){
+
+    }
 }

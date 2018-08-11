@@ -1,5 +1,6 @@
 package Players.Fighters;
 
+import Enemies.Enemy;
 import Interfaces.IWeapon;
 import Weapons.Axe;
 import Weapons.Club;
@@ -28,4 +29,6 @@ public class Barbarian extends Fighter{
     public void defaultWeapon(){
         this.setWeapon(this.club);
     }
+
+
 }

@@ -2,6 +2,6 @@ package Interfaces;
 
 import Enemies.Enemy;
 
-public interface ISpell {
-    public void attack(Enemy enemy);
+public interface ICauseDamage {
+    public void causeDamage(Enemy enemy);
 }

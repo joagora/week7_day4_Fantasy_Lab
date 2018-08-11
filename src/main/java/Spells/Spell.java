@@ -1,8 +1,9 @@
 package Spells;
 
 import Enemies.Enemy;
+import Interfaces.ICauseDamage;
 
-public abstract class Spell {
+public abstract class Spell implements ICauseDamage {
 
     protected int damage;
 
