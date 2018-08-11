@@ -1,9 +1,6 @@
 package Weapons;
 
-import Enemies.Enemy;
-import Interfaces.ILightSide;
-
-public class Axe extends Weapon implements ILightSide {
+public class Axe extends Weapon {
 
     public Axe() {
         super(20, "Axel");

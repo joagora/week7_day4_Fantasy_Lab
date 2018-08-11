@@ -9,4 +9,5 @@ public class FreezeSpell extends Spell {
 
 
 
+
 }

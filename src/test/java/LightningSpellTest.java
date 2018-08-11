@@ -22,7 +22,7 @@ public class LightningSpellTest {
 
     @Test
     public void canCauseDamage() {
-        lightningSpell.causeDamage(troll);
+        lightningSpell.causeDamageToEnemy(troll);
         assertEquals(60, troll.getHealth());
     }
 }

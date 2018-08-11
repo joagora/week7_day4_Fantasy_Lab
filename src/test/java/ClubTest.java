@@ -17,7 +17,7 @@ public class ClubTest {
 
     @Test
     public void canAttack() {
-        club.causeDamage(troll);
+        club.causeDamageToEnemy(troll);
         assertEquals(90, troll.getHealth());
     }
 

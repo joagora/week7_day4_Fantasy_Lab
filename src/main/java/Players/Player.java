@@ -1,40 +1,38 @@
 package Players;
 
+
 import Enemies.Enemy;
+import Enemies.GameCharacter;
+import Game.Dice;
+import Interfaces.ICauseDamage;
+import Interfaces.IFight;
 
 
-public abstract class Player {
-    private String name;
-    private int health;
-    private int stamina;
-    private int strength;
+public abstract class Player extends GameCharacter implements IFight {
 
+    private ICauseDamage power;
     public Player(String name, int stamina, int strength) {
-        this.name = name;
-        this.stamina = stamina;
-        this.strength = strength;
-        this.health = 100;
+        super(name, stamina, strength);
+        this.power = null;
     }
 
-    public int getHealth() {
-        return health;
+    public void setPower(ICauseDamage power) {
+        this.power = power;
     }
 
-    public int getStamina() {
-        return stamina;
+    public void attack(Enemy enemy){
+        if (enemy.getResistanceToMagic()){
+            this.setStamina(this.getStamina() - 10);
+        } else {
+            Dice dice = new Dice();
+            int playerLuck = dice.getRandomNumber();
+            int enemyLuck = dice.getRandomNumber();
+            if (enemy.getStrength() + enemyLuck < this.getStrength() + playerLuck) {
+                this.power.causeDamageToEnemy(enemy);
+            } else {
+                int currentPlayerStamina = this.getStamina();
+                this.setStamina(currentPlayerStamina - 10);
+            }
+        }
     }
-
-    public int getStrength() {
-        return strength;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
-    public void setStamina(int newStamina){
-        this.stamina = newStamina;
-    }
-
-    public abstract void attack(Enemy enemy);
 }

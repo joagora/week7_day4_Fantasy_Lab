@@ -1,8 +1,6 @@
 package Spells;
 
-import Interfaces.IDarkSide;
-
-public class HellishSpell extends Spell implements IDarkSide {
+public class HellishSpell extends Spell {
 
     public HellishSpell() {
         super(20);

@@ -6,4 +6,5 @@ public class FireSpell extends Spell {
         super(50);
     }
 
+
 }

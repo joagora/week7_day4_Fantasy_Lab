@@ -1,4 +1,6 @@
 import Enemies.Orc;
+import Weapons.MorningStar;
+import Weapons.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,12 +22,12 @@ public class OrcTest {
 
     @Test
     public void hasStamina() {
-        assertEquals(30, orc.getStamina());
+        assertEquals(20, orc.getStamina());
     }
 
     @Test
     public void hasStrength() {
-        assertEquals(20, orc.getStrength());
+        assertEquals(30, orc.getStrength());
     }
 
     @Test
@@ -35,6 +37,7 @@ public class OrcTest {
 
     @Test
     public void hasClub() {
-        assertEquals("Spikey", orc.getWeapon().getName());
+        Weapon weapon = (Weapon) orc.getWeapon();
+        assertEquals("Death Star", weapon.getName());
     }
 }

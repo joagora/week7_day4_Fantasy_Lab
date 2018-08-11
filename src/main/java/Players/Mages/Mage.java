@@ -3,7 +3,6 @@ package Players.Mages;
 import Beasts.Beast;
 import Enemies.Enemy;
 import Game.Dice;
-import Interfaces.ICauseDamage;
 import Players.Player;
 import Spells.Spell;
 
@@ -17,6 +16,7 @@ public abstract class Mage extends Player {
         super(name, stamina, strength);
         this.spell = spell;
         this.defence = defence;
+        setPower(spell);
     }
 
     public Spell getSpell() {
@@ -35,21 +35,5 @@ public abstract class Mage extends Player {
         return defence;
     }
 
-    @Override
-    public void attack(Enemy enemy){
-        if (enemy.getResistanceToMagic()){
-            this.setStamina(this.getStamina() - 10);
-        } else {
-            Dice dice = new Dice();
-            int playerLuck = dice.getRandomNumber();
-            int enemyLuck = dice.getRandomNumber();
-            if (enemy.getStrength() + enemyLuck < this.getStrength() + playerLuck) {
-                this.getSpell().causeDamage(enemy);
-            } else {
-                int currentPlayerStamina = this.getStamina();
-                this.setStamina(currentPlayerStamina - 10);
-            }
-        }
-    }
 
 }

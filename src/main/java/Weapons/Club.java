@@ -1,9 +1,6 @@
 package Weapons;
 
-import Enemies.Enemy;
-import Interfaces.ILightSide;
-
-public class Club extends Weapon implements ILightSide {
+public class Club extends Weapon {
 
     public Club() {
         super(10, "Spikey");

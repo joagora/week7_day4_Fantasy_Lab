@@ -24,7 +24,7 @@ public class FireSpellTest {
 
     @Test
     public void canCauseDamage() {
-        fireSpell.causeDamage(troll);
+        fireSpell.causeDamageToEnemy(troll);
         assertEquals(50, troll.getHealth());
     }
 }

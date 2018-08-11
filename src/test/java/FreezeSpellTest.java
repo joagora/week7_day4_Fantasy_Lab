@@ -25,7 +25,7 @@ public class FreezeSpellTest {
 
     @Test
     public void canCauseDamage() {
-        freezeSpell.causeDamage(troll);
+        freezeSpell.causeDamageToEnemy(troll);
         assertEquals(70, troll.getHealth());
     }
 }
