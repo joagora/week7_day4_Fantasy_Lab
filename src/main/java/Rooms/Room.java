@@ -1,17 +1,19 @@
-package Room;
+package Rooms;
 
 import Enums.ExitType;
 import Game.Dice;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Room {
+public abstract class Room {
     private ArrayList<ExitType> exits;
+    private ExitType direction;
 
-    public Room() {
+    public Room(ExitType direction) {
         this.exits = exits;
+        this.direction = direction;
+        createExits();
     }
 
 
@@ -28,5 +30,9 @@ public class Room {
             x += 1;
         }
         System.out.println(exitsOfRoom);
+    }
+
+    public ExitType getDirection(){
+        return this.direction;
     }
 }
