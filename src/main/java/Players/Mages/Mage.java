@@ -38,12 +38,14 @@ public abstract class Mage extends Player {
     @Override
     public void attack(Enemy enemy){
         if (enemy.getResistanceToMagic()){
-            return;
+            this.setStamina(this.getStamina() - 10);
         } else {
             Dice dice = new Dice();
             int playerLuck = dice.getRandomNumber();
+            System.out.println(playerLuck);
             int enemyLuck = dice.getRandomNumber();
-            if (enemy.getStrength() + enemyLuck > this.getStrength() + playerLuck) {
+            System.out.println(enemyLuck);
+            if (enemy.getStrength() + enemyLuck < this.getStrength() + playerLuck) {
                 this.getSpell().causeDamage(enemy);
             } else {
                 int currentPlayerStamina = this.getStamina();

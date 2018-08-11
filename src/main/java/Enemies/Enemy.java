@@ -38,4 +38,8 @@ public abstract class Enemy {
     public boolean getResistanceToMagic() {
         return resistanceToMagic;
     }
+
+    public void attack(){
+
+    }
 }

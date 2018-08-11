@@ -19,4 +19,6 @@ public class HerbsTest {
     public void hasHealthRestoring() {
         assertEquals(20, herbs.getHealthRestoration());
     }
+
+
 }
