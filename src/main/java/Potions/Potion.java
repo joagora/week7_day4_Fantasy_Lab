@@ -4,12 +4,9 @@ import Players.Player;
 
 public class Potion extends Medicine {
 
-    public Potion(int healthRestoration) {
-        super(healthRestoration);
+    public Potion() {
+        super(20);
     }
 
-    @Override
-    public void restoreHealth(Player player) {
 
-    }
 }

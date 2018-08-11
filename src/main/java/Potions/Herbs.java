@@ -8,12 +8,5 @@ public class Herbs extends Medicine {
         super(20);
     }
 
-    public void restoreHealth(Player player){
-        if (player.getHealth() > 80) {
-            player.setHealth(100);
-        } else {
-            player.setHealth(player.getHealth() + this.getHealthRestoration());
-        }
 
-    }
 }
