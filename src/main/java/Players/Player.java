@@ -7,6 +7,7 @@ import Enums.ExitType;
 import Game.Dice;
 import Interfaces.ICauseDamage;
 import Interfaces.IFight;
+import Quests.Quest;
 import Rooms.IcyCaveRoom;
 import Rooms.Room;
 
@@ -25,6 +26,14 @@ public abstract class Player extends GameCharacter implements IFight {
         this.power = power;
     }
 
+    public Room getCurrentLocation() {
+        return currentLocation;
+    }
+
+    public void setCurrentLocation(Room currentLocation) {
+        this.currentLocation = currentLocation;
+    }
+
     public void attack(Enemy enemy){
         if (enemy.getResistanceToMagic()){
             this.setStamina(this.getStamina() - 10);
@@ -40,8 +49,6 @@ public abstract class Player extends GameCharacter implements IFight {
             }
         }
     }
-    public void goToAnotherRoom(ExitType exit){
 
-    }
 
 }

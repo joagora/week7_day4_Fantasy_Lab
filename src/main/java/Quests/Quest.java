@@ -1,5 +1,6 @@
 package Quests;
 import Enums.ExitType;
+import Players.Player;
 import Rooms.*;
 
 import java.util.ArrayList;
@@ -38,5 +39,11 @@ public class Quest {
 
     public void removeRoomFromListByName(Room roomToRemove){
         this.roomList.remove(roomToRemove);
+    }
+
+    public void movePlayerToAnotherRoom(Player player, ExitType exit){
+        Room newLocation = getRoomOfDirection(exit);
+        player.setCurrentLocation(newLocation);
+        removeRoomFromListByName(player.getCurrentLocation());
     }
 }

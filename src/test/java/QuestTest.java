@@ -1,4 +1,6 @@
 import Enums.ExitType;
+import Players.Mages.Wizard;
+import Players.Player;
 import Quests.Quest;
 import Rooms.MistyForrestRoom;
 import Rooms.Room;
@@ -11,11 +13,13 @@ public class QuestTest {
 
     Quest quest;
     Room room;
+    Player player;
 
     @Before
     public void before() {
         quest = new Quest();
         room = new MistyForrestRoom();
+        player = new Wizard();
     }
 
     @Test
@@ -33,5 +37,12 @@ public class QuestTest {
     public void canRemoveRoomFromList() {
         quest.removeRoomFromListByName(quest.getRoomOfDirection(ExitType.EAST));
         assertEquals(4, quest.getRoomList().size());
+    }
+
+    @Test
+    public void canMovePlayerToAnotherRoom() {
+        quest.movePlayerToAnotherRoom(player, ExitType.EAST);
+        assertEquals(4, quest.getRoomList().size());
+        assertEquals("Misty Forrest", player.getCurrentLocation().getName());
     }
 }
