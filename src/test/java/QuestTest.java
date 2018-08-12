@@ -1,3 +1,4 @@
+import Enums.ExitType;
 import Quests.Quest;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,6 +21,6 @@ public class QuestTest {
 
     @Test
     public void canGetRoomOfSpecificDirection() {
-        assertEquals();
+        assertEquals("Misty Forrest", quest.getRoomOfDirection(ExitType.EAST).getName());
     }
 }

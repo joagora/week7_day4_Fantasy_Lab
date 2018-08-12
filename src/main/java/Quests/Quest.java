@@ -29,7 +29,8 @@ public class Quest {
         Room foundRoom = null;
         for (Room room: this.roomList) {
             if (room.getDirection() == exit){
-                foundRoom =  room;
+                foundRoom = room;
+                break;
             }
         }
         return foundRoom;

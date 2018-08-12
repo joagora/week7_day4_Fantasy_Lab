@@ -38,4 +38,7 @@ public abstract class Room {
         return this.direction;
     }
 
+    public String getName() {
+        return name;
+    }
 }
