@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Quests/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,23 +43,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="346" />
+          <entry key="java" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="346" />
+          <entry key="JAVA" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="12149" />
+          <entry key="java" value="12628" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12149" />
+          <entry key="JAVA" value="12628" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -73,6 +74,18 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
                   <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Room.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="423">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -111,7 +124,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/IcyCaveRoom.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
-                  <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+                  <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
                   <folding>
                     <element signature="e#106#107#0" expanded="true" />
                     <element signature="e#155#156#0" expanded="true" />
@@ -123,14 +136,18 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Quests/Quest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+                <state relative-caret-position="394">
+                  <caret line="68" column="44" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#541#542#0" expanded="true" />
                     <element signature="e#572#573#0" expanded="true" />
                     <element signature="e#941#942#0" expanded="true" />
                     <element signature="e#960#961#0" expanded="true" />
+                    <element signature="e#1486#1487#0" expanded="true" />
+                    <element signature="e#1505#1506#0" expanded="true" />
+                    <element signature="e#1677#1678#0" expanded="true" />
+                    <element signature="e#1703#1704#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -148,13 +165,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+                <state relative-caret-position="64">
+                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#680#681#0" expanded="true" />
                     <element signature="e#718#719#0" expanded="true" />
-                    <element signature="e#893#894#0" expanded="true" />
                     <element signature="e#699#700#0" expanded="true" />
                     <element signature="e#753#754#0" expanded="true" />
                   </folding>
@@ -169,10 +185,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/QuestTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+                <state relative-caret-position="423">
+                  <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#504#505#0" expanded="true" />
+                    <element signature="e#563#564#0" expanded="true" />
+                    <element signature="e#1682#1683#0" expanded="true" />
+                    <element signature="e#1712#1713#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -555,16 +575,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" />
         <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/IcyCaveRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/MistyForrestRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/SlipperySlopesRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/SmokyMountainsRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/WildernessRoom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Runner/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/IcyCaveRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QuestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Quests/Quest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QuestTest.java" />
       </list>
     </option>
   </component>
@@ -697,14 +717,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Rooms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasy_adventure_lab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -744,7 +756,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534109813033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534110771418" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -761,24 +773,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuestTest.doesNotMovePlayerIfNoRoomsLeft">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <module name="FantasyAdventure_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuestTest.canGetQuestPlayers">
     <configuration name="All in FantasyAdventure_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestTest.canGetQuestPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="canGetQuestPlayers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -788,16 +797,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QuestTest" />
       <option name="METHOD_NAME" value="canMovePlayerToAnotherRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestTest.canRemoveRoomFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestTest" />
-      <option name="METHOD_NAME" value="canRemoveRoomFromList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -813,20 +812,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuestTest.hasRoomList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="hasRoomList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.All in FantasyAdventure_test" />
-      <item itemvalue="JUnit.QuestTest.canRemoveRoomFromList" />
-      <item itemvalue="Application.Runner" />
       <item itemvalue="JUnit.QuestTest.canMovePlayerToAnotherRoom" />
       <item itemvalue="JUnit.QuestTest.doesNotMovePlayerIfNoRoomsLeft" />
+      <item itemvalue="JUnit.All in FantasyAdventure_test" />
+      <item itemvalue="JUnit.QuestTest.hasRoomList" />
+      <item itemvalue="JUnit.QuestTest.canGetQuestPlayers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuestTest.doesNotMovePlayerIfNoRoomsLeft" />
-        <item itemvalue="JUnit.QuestTest.canRemoveRoomFromList" />
-        <item itemvalue="JUnit.QuestTest.canMovePlayerToAnotherRoom" />
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.QuestTest.canGetQuestPlayers" />
         <item itemvalue="JUnit.All in FantasyAdventure_test" />
+        <item itemvalue="JUnit.QuestTest.hasRoomList" />
+        <item itemvalue="JUnit.QuestTest.canMovePlayerToAnotherRoom" />
+        <item itemvalue="JUnit.QuestTest.doesNotMovePlayerIfNoRoomsLeft" />
       </list>
     </recent_temporary>
   </component>
@@ -844,27 +853,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 27m 27s.xml">
-      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_canRemoveRoomFromList - 2018.08.12 at 21h 28m 37s.xml">
-      <configuration name="QuestTest.canRemoveRoomFromList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_canRemoveRoomFromList - 2018.08.12 at 21h 29m 47s.xml">
-      <configuration name="QuestTest.canRemoveRoomFromList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 29m 48s.xml">
-      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 31m 55s.xml">
-      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 37m 32s.xml">
-      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 38m 48s.xml">
-      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 41m 45s.xml">
       <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
     </history-entry>
@@ -873,6 +861,27 @@
     </history-entry>
     <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 21h 52m 05s.xml">
       <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 22h 35m 29s.xml">
+      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 22h 36m 54s.xml">
+      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 22h 37m 03s.xml">
+      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestTest_doesNotMovePlayerIfNoRoomsLeft - 2018.08.12 at 22h 43m 58s.xml">
+      <configuration name="QuestTest.doesNotMovePlayerIfNoRoomsLeft" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestTest_canRemoveRoomFromList - 2018.08.12 at 22h 43m 58s.xml">
+      <configuration name="QuestTest.canRemoveRoomFromList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyAdventure_test - 2018.08.12 at 22h 44m 03s.xml">
+      <configuration name="All in FantasyAdventure_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyAdventure_test - 2018.08.12 at 22h 45m 10s.xml">
+      <configuration name="All in FantasyAdventure_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -884,7 +893,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21101573" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21101573" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.22168675" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -893,7 +902,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.27108434" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.27108434" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -918,11 +927,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Quests/Quest.java</url>
-          <line>43</line>
+          <line>45</line>
           <properties class="Quests.Quest" method="movePlayerToAnotherRoom">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Rooms/Room.java</url>
+          <line>25</line>
+          <properties class="Rooms.Room" method="createExits">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1196,18 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1259,17 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/IcyCaveRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/MistyForrestRoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1281,13 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/WildernessRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1318,15 +1305,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/WildernessRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/IcyCaveRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="64">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#753#754#0" expanded="true" />
           </folding>
@@ -1335,24 +1349,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Quests/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="394">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#941#942#0" expanded="true" />
             <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QuestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="423">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
           </folding>
         </state>
       </provider>

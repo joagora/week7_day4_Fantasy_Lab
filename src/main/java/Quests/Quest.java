@@ -8,13 +8,16 @@ import java.util.ArrayList;
 public class Quest {
 
     private ArrayList<Room> roomList;
+    private ArrayList<Player> questPlayers;
 
     public Quest() {
         this.roomList = new ArrayList<>();
+        this.questPlayers = new ArrayList<>();
         addRooms();
     }
 
     public void addRooms(){
+        this.roomList.add(new IcyCaveRoom());
         this.roomList.add(new MistyForrestRoom());
         this.roomList.add(new SlipperySlopesRoom());
         this.roomList.add(new SmokyMountainsRoom());
@@ -50,5 +53,20 @@ public class Quest {
         } else {
             return;
         }
+    }
+
+    public int questPlayersCount(){
+        return this.questPlayers.size();
+    }
+
+    public void addPlayerToQuest(Player player){
+        this.questPlayers.add(player);
+        Room firstRoom = this.getRoomList().get(0);
+        player.setCurrentLocation(firstRoom);
+        removeRoomFromListByName(firstRoom);
+    }
+
+    public ArrayList<Player> getQuestPlayers(){
+        return this.questPlayers;
     }
 }

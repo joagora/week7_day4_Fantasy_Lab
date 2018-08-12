@@ -1,5 +1,6 @@
 package Rooms;
 
+import Enemies.Enemy;
 import Enums.ExitType;
 import Game.Dice;
 
@@ -10,11 +11,13 @@ public abstract class Room {
     private ArrayList<ExitType> exits;
     private ExitType direction;
     private String name;
+    private Enemy enemy;
 
     public Room(ExitType direction, String name) {
         this.name = name;
         this.exits = exits;
         this.direction = direction;
+        this.enemy = null;
         createExits();
     }
 
@@ -39,5 +42,11 @@ public abstract class Room {
 
     public String getName() {
         return name;
+    }
+
+
+    public void fillWithRandomEnemy(){
+        Dice dice = new Dice();
+        int numberOfEnemies = dice.getRandomNumber(3) + 1;
     }
 }

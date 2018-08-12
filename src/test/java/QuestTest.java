@@ -35,7 +35,7 @@ public class QuestTest {
 
     @Test
     public void canRemoveRoomFromList() {
-        quest.removeRoomFromListByName(quest.getRoomOfDirection(ExitType.SOUTH));
+        quest.removeRoomFromListByName(quest.getRoomOfDirection(ExitType.EAST));
         assertEquals(4, quest.getRoomList().size());
     }
 
@@ -48,12 +48,23 @@ public class QuestTest {
 
     @Test
     public void doesNotMovePlayerIfNoRoomsLeft() {
-        Quest playersQuest = player.getCurrentQuest();
-        playersQuest.movePlayerToAnotherRoom(player, ExitType.EAST);
-        playersQuest.movePlayerToAnotherRoom(player, ExitType.EAST);
-        playersQuest.movePlayerToAnotherRoom(player, ExitType.WEST);
-        playersQuest.movePlayerToAnotherRoom(player, ExitType.WEST);
-        assertEquals(0, playersQuest.getRoomList().size());
+        quest.addPlayerToQuest(player);
+        quest.movePlayerToAnotherRoom(player, ExitType.EAST);
+        quest.movePlayerToAnotherRoom(player, ExitType.EAST);
+        quest.movePlayerToAnotherRoom(player, ExitType.WEST);
+        quest.movePlayerToAnotherRoom(player, ExitType.WEST);
+        assertEquals(0, quest.getRoomList().size());
 
+    }
+
+    @Test
+    public void canGetPlayersCount() {
+        assertEquals(0, quest.questPlayersCount());
+    }
+
+    @Test
+    public void canGetQuestPlayers() {
+        quest.addPlayerToQuest(player);
+        assertEquals(1, quest.questPlayersCount());
     }
 }
