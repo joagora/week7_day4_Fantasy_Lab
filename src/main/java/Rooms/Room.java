@@ -9,8 +9,10 @@ import java.util.Random;
 public abstract class Room {
     private ArrayList<ExitType> exits;
     private ExitType direction;
+    private String name;
 
-    public Room(ExitType direction) {
+    public Room(ExitType direction, String name) {
+        this.name = name;
         this.exits = exits;
         this.direction = direction;
         createExits();

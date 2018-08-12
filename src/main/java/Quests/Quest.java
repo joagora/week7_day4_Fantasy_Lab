@@ -1,4 +1,5 @@
 package Quests;
+import Enums.ExitType;
 import Rooms.*;
 
 import java.util.ArrayList;
@@ -22,5 +23,15 @@ public class Quest {
 
     public ArrayList<Room> getRoomList() {
         return roomList;
+    }
+
+    public Room getRoomOfDirection(ExitType exit){
+        Room foundRoom = null;
+        for (Room room: this.roomList) {
+            if (room.getDirection() == exit){
+                foundRoom =  room;
+            }
+        }
+        return foundRoom;
     }
 }

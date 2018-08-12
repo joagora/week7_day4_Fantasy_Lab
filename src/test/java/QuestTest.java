@@ -17,4 +17,9 @@ public class QuestTest {
     public void hasRoomList() {
         assertEquals(5, quest.getRoomList().size());
     }
+
+    @Test
+    public void canGetRoomOfSpecificDirection() {
+        assertEquals();
+    }
 }

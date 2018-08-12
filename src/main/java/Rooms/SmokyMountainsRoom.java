@@ -5,6 +5,6 @@ import Enums.ExitType;
 public class SmokyMountainsRoom extends Room {
 
     public SmokyMountainsRoom() {
-        super(ExitType.EAST);
+        super(ExitType.EAST, "Smoky Mountain");
     }
 }

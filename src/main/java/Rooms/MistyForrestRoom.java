@@ -4,7 +4,7 @@ import Enums.ExitType;
 
 public class MistyForrestRoom extends Room {
     public MistyForrestRoom() {
-        super(ExitType.EAST);
+        super(ExitType.EAST, "Misty Forrest");
     }
 
 
