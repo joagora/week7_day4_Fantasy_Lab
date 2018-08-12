@@ -1,4 +1,7 @@
 package Quests;
+import Enemies.Enemy;
+import Enemies.Orc;
+import Enemies.Troll;
 import Enums.ExitType;
 import Players.Player;
 import Rooms.*;
@@ -8,13 +11,13 @@ import java.util.ArrayList;
 public class Quest {
 
     private ArrayList<Room> roomList;
-    private ArrayList<Player> questPlayers;
-
+    private Player questPlayer;
     public Quest() {
         this.roomList = new ArrayList<>();
-        this.questPlayers = new ArrayList<>();
+        this.questPlayer = null;
         addRooms();
     }
+
 
     public void addRooms(){
         this.roomList.add(new IcyCaveRoom());
@@ -55,18 +58,15 @@ public class Quest {
         }
     }
 
-    public int questPlayersCount(){
-        return this.questPlayers.size();
-    }
 
     public void addPlayerToQuest(Player player){
-        this.questPlayers.add(player);
+        this.questPlayer = player;
         Room firstRoom = this.getRoomList().get(0);
         player.setCurrentLocation(firstRoom);
         removeRoomFromListByName(firstRoom);
     }
 
-    public ArrayList<Player> getQuestPlayers(){
-        return this.questPlayers;
+    public Player getQuestPlayer(){
+        return this.questPlayer;
     }
 }

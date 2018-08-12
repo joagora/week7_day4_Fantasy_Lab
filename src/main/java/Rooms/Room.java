@@ -1,6 +1,8 @@
 package Rooms;
 
 import Enemies.Enemy;
+import Enemies.Orc;
+import Enemies.Troll;
 import Enums.ExitType;
 import Game.Dice;
 
@@ -11,13 +13,13 @@ public abstract class Room {
     private ArrayList<ExitType> exits;
     private ExitType direction;
     private String name;
-    private Enemy enemy;
+    private ArrayList<Enemy> enemies;
 
     public Room(ExitType direction, String name) {
         this.name = name;
         this.exits = exits;
         this.direction = direction;
-        this.enemy = null;
+        this.enemies = new ArrayList<>();
         createExits();
     }
 
@@ -47,6 +49,18 @@ public abstract class Room {
 
     public void fillWithRandomEnemy(){
         Dice dice = new Dice();
-        int numberOfEnemies = dice.getRandomNumber(3) + 1;
+        int numberOfEnemies = dice.getRandomNumber(2);
+
+        int x = 0;
+
+        while (x <= numberOfEnemies) {
+            ArrayList<Enemy> enemyList = new ArrayList<>();
+            enemyList.add(new Troll());
+            enemyList.add(new Orc());
+            int randomIndex = dice.getRandomNumber(1);
+            this.enemies.add(enemyList.get(randomIndex));
+            x += 1;
+        }
+        System.out.println(this.enemies);
     }
 }

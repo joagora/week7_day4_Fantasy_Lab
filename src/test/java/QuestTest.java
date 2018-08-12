@@ -59,12 +59,8 @@ public class QuestTest {
 
     @Test
     public void canGetPlayersCount() {
-        assertEquals(0, quest.questPlayersCount());
-    }
-
-    @Test
-    public void canGetQuestPlayers() {
         quest.addPlayerToQuest(player);
-        assertEquals(1, quest.questPlayersCount());
+        assertEquals(player, quest.getQuestPlayer());
+
     }
 }
