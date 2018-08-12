@@ -31,7 +31,6 @@ public abstract class Room {
             exitsOfRoom.add(randomExit);
             x += 1;
         }
-        System.out.println(exitsOfRoom);
     }
 
     public ExitType getDirection(){

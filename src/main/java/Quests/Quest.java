@@ -35,4 +35,8 @@ public class Quest {
         }
         return foundRoom;
     }
+
+    public void removeRoomFromListByName(Room roomToRemove){
+        this.roomList.remove(roomToRemove);
+    }
 }
