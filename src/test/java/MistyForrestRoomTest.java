@@ -18,4 +18,6 @@ public class MistyForrestRoomTest {
     public void hasDirection() {
         assertEquals(ExitType.EAST, mistyForrest.getDirection());
     }
+
+
 }

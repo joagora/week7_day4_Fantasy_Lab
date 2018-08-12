@@ -28,8 +28,4 @@ public class Dwarf extends Fighter{
         this.setWeapon(this.axe);
     }
 
-    @Override
-    public void attack(Enemy enemy){
-
-    }
 }

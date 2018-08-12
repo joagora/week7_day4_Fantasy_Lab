@@ -28,4 +28,5 @@ public class DwarfTest {
         Club club = (Club) dwarf.getWeapon();
         assertEquals("Spikey", club.getName() );
     }
+
 }

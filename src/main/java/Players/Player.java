@@ -3,17 +3,22 @@ package Players;
 
 import Enemies.Enemy;
 import Enemies.GameCharacter;
+import Enums.ExitType;
 import Game.Dice;
 import Interfaces.ICauseDamage;
 import Interfaces.IFight;
+import Rooms.IcyCaveRoom;
+import Rooms.Room;
 
 
 public abstract class Player extends GameCharacter implements IFight {
 
     private ICauseDamage power;
+    private Room currentLocation;
     public Player(String name, int stamina, int strength) {
         super(name, stamina, strength);
         this.power = null;
+        this.currentLocation = new IcyCaveRoom();
     }
 
     public void setPower(ICauseDamage power) {
@@ -35,4 +40,8 @@ public abstract class Player extends GameCharacter implements IFight {
             }
         }
     }
+    public void goToAnotherRoom(ExitType exit){
+
+    }
+
 }

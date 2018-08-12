@@ -35,4 +35,5 @@ public abstract class Room {
     public ExitType getDirection(){
         return this.direction;
     }
+
 }

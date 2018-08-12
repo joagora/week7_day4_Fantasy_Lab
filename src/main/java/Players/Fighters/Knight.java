@@ -1,7 +1,5 @@
 package Players.Fighters;
 
-import Enemies.Enemy;
-import Interfaces.IWeapon;
 import Weapons.Axe;
 import Weapons.Sword;
 
@@ -29,7 +27,4 @@ public class Knight extends Fighter{
         this.setWeapon(this.sword);
     }
 
-    public void attack(Enemy enemy){
-
-    }
 }
