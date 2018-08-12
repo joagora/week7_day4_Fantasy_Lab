@@ -15,7 +15,6 @@ public class Quest {
     }
 
     public void addRooms(){
-        this.roomList.add(new IcyCaveRoom());
         this.roomList.add(new MistyForrestRoom());
         this.roomList.add(new SlipperySlopesRoom());
         this.roomList.add(new SmokyMountainsRoom());
@@ -42,8 +41,14 @@ public class Quest {
     }
 
     public void movePlayerToAnotherRoom(Player player, ExitType exit){
-        Room newLocation = getRoomOfDirection(exit);
-        player.setCurrentLocation(newLocation);
-        removeRoomFromListByName(player.getCurrentLocation());
+
+        if (this.roomList.size() > 0) {
+            Room newLocation = getRoomOfDirection(exit);
+            player.setCurrentLocation(newLocation);
+            Room currentRoom = player.getCurrentLocation();
+            removeRoomFromListByName(currentRoom);
+        } else {
+            return;
+        }
     }
 }

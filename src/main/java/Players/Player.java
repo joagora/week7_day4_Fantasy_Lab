@@ -16,10 +16,12 @@ public abstract class Player extends GameCharacter implements IFight {
 
     private ICauseDamage power;
     private Room currentLocation;
+    private Quest currentQuest;
     public Player(String name, int stamina, int strength) {
         super(name, stamina, strength);
         this.power = null;
-        this.currentLocation = new IcyCaveRoom();
+        this.currentQuest = new Quest();
+        this.currentLocation = currentQuest.getRoomOfDirection(ExitType.SOUTH);
     }
 
     public void setPower(ICauseDamage power) {
@@ -28,6 +30,10 @@ public abstract class Player extends GameCharacter implements IFight {
 
     public Room getCurrentLocation() {
         return currentLocation;
+    }
+
+    public Quest getCurrentQuest() {
+        return currentQuest;
     }
 
     public void setCurrentLocation(Room currentLocation) {
